@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Employee Data</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>  
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+    
+</head>
+<body>
+    <div class = "main-container">
+    <div class = "container">
+        <div class = "heading">
+    <h1>train</h1>
+ 
+    </div>
+
+
+
+    <div class = "tableInput">
+        
+    <table id = "tableID">
+            <tr id = "table-head">
+              <th class = "head-style">Train Name</th>
+              <th class = "head-style">Destination</th> 
+              <th class = "head-style">Frequency(min.)</th>
+              <th class = "head-style">Next Arrival</th>
+              <th class = "head-style">Minutes Away</th>
+              
+            </tr>
+    </table>
+    <table id="tableFill">
+        
+    </table>
+    </div>
+         
+
+    <div class = "formInput">
+
+    <form>
+        <p id = "styleform">Train name</p>
+        <input type="text" id = "trainNameInput" name="trainName"><br>
+        <p id = "styleform">Destination</p>
+        <input type="text" id = "destinationInput" name="destination">
+        <p id = "styleform">Frequency</p>
+        <input type = "text" id = "frequencyInput" name="frequency">
+        <p id = "styleform">First Train Time (HH:mm - 24hour)</p>
+        <input type="time" id = "firstTrainTimeInput" name="firstTrainTime">
+        </form>
+        <button type="button" id = "buttonInput">Submit</button>
+
+    </div>
+    <footer>
+            &copy;  David Flores   2018 
+    </footer>
+    </div>
+ 
+
+   
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>

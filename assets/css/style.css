@@ -1,0 +1,125 @@
+html,
+header {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(55, 57, 59);
+    /* background: linear-gradient( #000,#414141 );
+    background-size: 150%; */
+    background-image: url(../images/andre-benz-237615-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 95px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-decoration: sandybrown underline;
+}
+
+.main-container {
+    width: 900px;
+    margin: auto;
+    margin-top: 5px;
+    background-image: url(../images/jose-martin-ramirez-c-363-unsplash-Supremed-lightened.jpg);
+    opacity: 0.90;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: initial;
+}
+
+.container {
+    width: 900px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #c20000;
+}
+
+.heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    line-height: 90px;
+    align-self: auto;
+    color: rgb(250, 253, 255);
+    background-color: #c20000;
+}
+
+
+#tableID {
+    width: 870px;
+    margin: 30px 15px 0px;
+    padding: 0px 0px 0px 25px;
+    background-color: #fff;
+    text-align: center;
+}
+#tableFill {
+    width: 870px;
+    margin: 0px 15px 0px;
+    padding: 0px 0px 0px 25px;
+    background-color: #fff;
+    text-align: left;
+}
+
+th, td{
+    text-align: center;
+    width: 175px;
+}
+
+.head-style {
+    padding-bottom: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.formInput {
+    width: 99.4%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#styleform {
+    width: 170px;
+    background-color: #c200009c;
+    text-align: center;
+    color: #fff;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+input {
+    width: 170px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+button {
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: rgb(250, 253, 255);
+    text-align: center;
+    font-size: 10px;
+}
