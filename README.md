@@ -14,3 +14,6 @@ The repo is mainly an excercise to create familiarity with `Firebase`.
     * First Train Time -- in military time
     
     * Frequency -- in minutes
+
+
+    see it live :  https://davebattles.github.io/trainScheduler/
